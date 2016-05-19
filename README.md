@@ -37,4 +37,9 @@ Create a kafka topic
         bin/kafka-topics.sh --zookeeper localhost:2181 --create --partitions 2 --replication-factor 2 --name first
 
 
+Write the Spark consumer
 
+https://github.com/kingan/datapipeline1/blob/master/direct_kafka_wordcount.py
+
+
+Setup Hadoop
